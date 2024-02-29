@@ -1,0 +1,40 @@
+span {
+    display: inline-block;
+    background: rgb(red, green, blue);
+    padding: 5px 15px;
+    color: aqua;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div {
+    border: 3px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.kotak-1 {
+    width: 400px;
+    background-color: brown;
+}
+
+.kotak-2 {
+    writing-mode: vertical-rl;
+    height: 200px;
+    background-color: blue;
+}
+
+body * { border: 3px solid red; }
+h1  { display: block; }
+
+h1 {
+    background-color: blueviolet;
+}
+
+p {
+    background-color: rgb(33, 192, 105);
+}
+
+h1~p {
+    font-weight: bold;
+}
